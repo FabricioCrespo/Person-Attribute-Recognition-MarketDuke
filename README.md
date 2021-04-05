@@ -23,10 +23,22 @@ Trained model are provided. You may download it from [Google Drive](https://driv
 You may download it and move `checkpoints` folder to your project's root directory.
 
 ## Dependencies
-* Python 3.5
+* Python 3.7
 * PyTorch >= 0.4.1
 * torchvision >= 0.2.1
 * matplotlib, sklearn, prettytable (optional)
+
+## Install a conda env:
+* conda create --name your_env_name python=3.6 -y
+
+## Activate conda env:
+* conda activate your_env_name
+
+## Stop using the environment:
+* conda deactivate
+
+## Install dependencies:
+` $pip install -r requirements.txt`
 
 ## Usage
 ```
