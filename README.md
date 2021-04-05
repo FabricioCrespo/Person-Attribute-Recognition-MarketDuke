@@ -32,13 +32,13 @@ You may download it and move `checkpoints` folder to your project's root directo
 * conda create --name your_env_name python=3.6 -y
 
 ## Activate conda env:
-* conda activate your_env_name
+*  `conda activate your_env_name`
 
 ## Stop using the environment:
-* conda deactivate
+*  `conda deactivate`
 
 ## Install dependencies:
-` $pip install -r requirements.txt`
+* ` $pip install -r requirements.txt`
 
 ## Usage
 ```
@@ -48,6 +48,9 @@ python3  test.py   --data-path  ~/dataset  --dataset  [market | duke]  --model  
 
 python3  inference.py   test_sample/test_market.jpg  [--dataset  market]  [--model  resnet50]
 ```
+## Adding new images to make inference:
+
+* Upload images to test_sample/
 
 ## Result
 
